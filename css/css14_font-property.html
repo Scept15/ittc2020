@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Css Font Property</title>
+    <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet">
+    <style>
+        .button{
+            width: 100px;
+            height: 100px;
+            border: 10px solid rosybrown;
+            background-color: seashell;
+            border-radius: 30px;
+            box-shadow: 5px 5px 5px maroon;
+        }
+        .font{
+            font-size: 2em;
+
+        }
+        .italic{
+            font-style: italic;
+        }
+        .bold{
+            font-weight: bold;
+        }
+        .center{
+            text-align: center;
+        }
+        .font{
+            color: saddlebrown;
+            font-family: 'Lemonada', cursive;
+        }
+
+       /*  a tag is in-line tag cannot be change so we put display: block tag */
+             /* to put in center of the box put line-height */
+        div > a {
+            display: block;
+            line-height: 100px;
+            text-decoration: none;
+        }
+        .button:hover{
+        background-color:teal;
+        }
+        .button:active{
+            background-color: silver;
+            box-shadow: 5px 5px 5px royalblue;
+
+        }
+      
+
+    </style>
+</head>
+<body>
+    <div class="button">
+        <a href="#" class="font italic bold center"> click</a>
+    </div>
+    
+</body>
+</html>
