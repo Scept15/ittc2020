@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js02 - Naming convention (rule)</title>
+
+    <script>
+    "use strict"
+
+    var $test, _test, test, $1234, t123; // (Working)
+    // var 123, 12test; (not working)
+
+    // 01.
+    // ! : not (T -> F, F -> T)
+
+    var t1 = true;
+
+    console.log(t1);
+
+    // && : and (T && T => T , F && T => F, T && F => F, F && F => F)
+    console.log("==== and(&&) ====");
+    console.log("and: T && T =>", true && true);
+    console.log("and: T && F =>", true && false);
+    console.log("and: F && T =>", false && true);
+    console.log("and: F && F =>", false && false);
+
+     // || : or (T || T => T , F || T => F, T || F => F, F || F => F)
+     console.log("==== or(||) ====");
+    console.log("and: T || T =>", true || true);
+    console.log("and: T || F =>", true || false);
+    console.log("and: F || T =>", false || true);
+    console.log("and: F || F =>", false || false);
+
+    console.log("============");
+    var a = 10;
+    var b = 20;
+    console.log(a);
+
+    a += b; // a = a + b;
+
+     console.log(a);
+
+     console.log("============");
+     var a = 10;
+    var b = 20;
+    var c = '20';
+    var d = 'Scept'
+    console.log(a == b); // a is equal to b? false
+
+
+    console.log(a = b); // b saved to a
+    console.log(a == b); // a is equal to b? true
+    console.log(20 === '20'); // type check false
+
+    console.log('==== typeof ====');
+    console.log(typeof b); // number  knowing what type of is the " typeof "
+    console.log(typeof c); // string
+    console.log(typeof d); // string
+    console.log(typeof 3.14); //number
+    console.log(typeof true); // boolean
+    console.log(typeof false); // boolean
+    console.log(typeof [90,20,30]);//object
+    console.log(typeof {name: 'scept', age: 20});// object
+    console.log(typeof function(){}); //function
+
+    console.log("============");
+    var ok;
+    console.log(ok);
+
+    // (condition) ? A : B; // teranary operator
+    var name = 'faith';
+    console.log(name == 'john' ? "ok" : "No");
+
+    // Prefix Increment operator, Prifix Decrement Operator 
+     // ++x => x = x + 1 // 1 is contstant
+     // --x => x = x -1   
+     console.log("====== Mind ======");
+        var num = 11;
+        var sum = ++num + ++num + ++num; // sum = 12 + 13 + 14
+        console.log(num, sum); // 14, 39 
+
+   
+        var num2 = 10;
+        var sum = --num + --num + --num; // sum = 9 + 8 + 7
+        console.log(num, sum); // 7, 24 
+
+
+        // Postfix Increment , Postfix Decrement
+        var post = 3;
+        var psum = post++ + post++ + post++; // 3 + 4 + 5
+        console.log(post, psum); //6, 12
+
+        var post = 3;
+        var psum = post-- + post-- + post--; // 3 - 2 - 1
+        console.log(post, psum); // 0 , 6
+
+
+        console.log("============");
+        var v1 = 3;
+        v1 = v1++;
+        console.log(v1);
+        
+        var v2 = 3;
+        v2 = ++v2;
+        console.log(v2);
+
+
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
