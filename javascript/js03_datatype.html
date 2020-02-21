@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js - Data Type</title>
+</head>
+<body>
+    <script>
+    "use strict"
+        
+        console.log("hello world");
+        window.console.log("hello world");
+
+        // number(value), String(value), Boolean(value), Object(value)
+        // number(value) => windiw.Number(value)
+
+        //changing Number type
+        console.log("==== Changing Number ====");
+        console.log(Number(null)); // 0
+        console.log(Number(true)); // 1
+        console.log(Number(false));// 0
+        console.log(window.Number(undefined)); // Nan = Not a number
+
+        var na;
+        console.log(na); // undefined
+        console.log(window.Number(na)); // Nan = Not a number
+        console.log(Number("")); // 0
+        console.log(Number("1990")); // 1990
+        console.log(Number("a"));// Nan
+        console.log(Number({name: 'scept', age: 10})); // Nan
+        console.log(typeof({name: 'scept', age: 10})); // object
+
+        // Changing String type
+        console.log("==== Changing String type ====");
+        console.log(window.String(undefined)); // undefined
+        console.log(String(null)); // "null"
+        console.log(String(true)); // "true"
+        console.log(String(false)); // "false"
+        console.log(String("")); // ""
+        console.log(String("3.14")); // "3.14"
+        console.log(String("ok")); // "ok"
+        console.log(String(2020)); // "2020"
+        console.log(String(NaN)); // NaN
+        console.log(String({name: 'jeremy', age: 20})); // [object object]
+
+        // Changing Boolean type (true/false)
+        console.log("==== Changing Boolean type ====");
+        console.log(window.Boolean(undefined)); // false
+        console.log(Boolean(null)); // false
+        console.log(Boolean(true)); // true
+        console.log(Boolean(false)); // false
+        console.log(Boolean("")); // false
+        console.log(Boolean("3.14")); // true
+        console.log(Boolean("Hello")); // true
+        console.log(Boolean(2020)); // true
+        console.log(Boolean(NaN)); // false
+        console.log(typeof({name: 'scept', age: 10})); // true
+
+        // Changing Object type {{}}
+        console.log("==== Changing Object type ====");
+        console.log(window.Object(undefined)); //Object type {}
+        console.log(Object(null)); // object type{}
+        console.log(Object(true)); // Boolean object 
+        console.log(Object(false)); // Boolean object 
+        console.log(Object("")); // string object {""}
+        console.log(Object("3.14")); // string object {"3.14"}
+        console.log(Object("Hello")); // string object {"hello"}
+        console.log(Object(2020)); // Number {2020}
+        console.log(Object(NaN)); // Number {NaN}
+        console.log(Object({name: 'scept', age: 10})); 
+
+        // more ...
+        console.log("30" - "20"); // 10
+        console.log("30" - "w20"); // NaN
+        // <<
+        console.log(true << 2); // 0100 = 4
+        // 0001 = 1
+        // 0010 = 2
+        // 0011 = 3
+        // 0100 = 4
+        // 0101 = 5
+        // 0110 = 6
+        // 0111 = 7
+        // 1000 = 8
+        // 1001 = 9
+        // 1010 = 10
+        // 1011 = 11
+        // 1100 = 12
+        // 1101 = 13
+        // 1110 = 14
+        // 1111 = 15
+        //10000 = 16
+    
+        console.log(true << 4); // 10000 = 16
+
+
+
+    </script>
+    
+</body>
+</html>
