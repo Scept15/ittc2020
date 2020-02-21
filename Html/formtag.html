@@ -7,16 +7,16 @@
     <title>Facebook Join</title>
 </head>
 <body>
-    <Form method="POST" action="">
+    <Form method="GET" action="">
         <table>
             <tr>
                 <td>Email or Phone</td>
                 <td>Password</td>
             </tr>
             <tr>
-                <td><input type="text"></td>
+                <td><input type="text" ></td>
                 <td><input type="password"></td>
-                <td> <input type="button" value="Log in"></td>      
+                <td> <input type="submit" value="Log in"></td>      
             </tr>
             <tr>
                 <td></td>
@@ -30,14 +30,14 @@
         <hr>
         <h1>Sign Up</h1>
         <h3>It's quick and easy</h3>
-    <form action="">
+    <form method="GET" action="example12_name.php">
         <Table>
             <tr>
-                <td><Input type="text" placeholder="Firstname"></td>
-                <td><input type="text" placeholder="Lastname"></td>
+                <td><Input type="text" name="name" placeholder="Firstname"></td>
+                <td><input type="text" name="lastname" placeholder="Lastname"></td>
             </tr>
             <tr>
-                <td colspan="2"><input type="email" placeholder="Mobile number or email" size="43" ></td>
+                <td colspan="2"><input type="email" , type="number" name="email" name="number" placeholder="Mobile number or email" size="43" ></td>
                 
             </tr>
             <tr>
@@ -50,7 +50,7 @@
         <table>
             <tr>
                 <td>
-                    <select name="sel">
+                    <select name="birthday">
                         <option >Jan</option>
                         <option >Feb</option>
                         <option >Mar</option>
@@ -66,7 +66,7 @@
                     </select>
                 </td>
                 <td>
-                    <select name="sel">
+                    <select name="birthday">
                         <option value="">1</option>
                         <option value="">2</option>
                         <option value="">3</option>
@@ -101,7 +101,7 @@
                     </select>
                 </td>
                 <td> 
-                    <select name="sel">
+                    <select name="birthday">
                         <option value="">2020</option>
                         <option value="">2019</option>
                         <option value="">2018</option>
@@ -184,9 +184,9 @@
                 <td colspan="3"><p style="font-size: 10px; color: gray;" >By clicking Sign Up, you agree to our <a href="https://www.facebook.com/legal/terms/update" target="_blank" style="color: rgb(80, 80, 192);">Terms</a>, <a href="https://www.facebook.com/about/privacy/update" target="_blank" style="color: rgb(80, 80, 165);"> Data Policy</a> and <br><a href="https://www.facebook.com/policies/cookies/" target="_blank" style="color: rgb(82, 82, 170);"> Cookies Policy </a>. You may receive SMS Notifications from us and <br>can opt out any time.</p></td>
             </tr>
         </table>
-    </form>
+   </form>
         <table>
-            <form action="html.test" target="_blank">
+          <form action="html.test" target="_blank"> 
                 <tr>
                     <td><button><img src="sign.jpeg"  width="150px" height="50px"></button></td>
                 </tr>
