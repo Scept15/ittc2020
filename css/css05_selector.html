@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css5 Selector</title>
+    <style>
+    
+    body > *:first-child {
+        color: firebrick
+    }
+    body >*:last-child{
+        color: forestgreen;
+    }
+    h1:last-of-type{
+        color: gold;
+    }
+    h2:nth-of-type(2) {color: greenyellow;}
+    p::first-letter{
+        color: indigo;
+        font-size:3em;
+    }
+    p::first-line{
+        color: lightcoral;
+
+    }
+
+    </style>
+</head>
+<body>
+
+    <!-- nth  means number -->
+
+    <h1>Header h1 - 1</h1>
+    <h1>Header h1 - 2</h1>
+    <h1>Header h1 - 3</h1>
+
+    <h2>Header h2 - 1</h2>
+    <h2>Header h2 - 2</h2>
+    <h2>Header h2 - 3</h2>
+    
+    <h3>Header h3 - 1</h3>
+    <h3>Header h3 - 2</h3>
+    <h3>Header h3 - 3</h3>
+
+    <h4>Header h4 - 1</h4>
+    <h4>Header h4 - 2</h4>
+    <h4>Header h4 - 3</h4>
+
+    <p>Good Morning Everyone. sleep?</p>
+    <p>Good Morning Everyone. sleep?</p>
+    <p>Good Morning Everyone. sleep?</p>
+
+</body>
+</html>
