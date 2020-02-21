@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>practice</title>
+</head>
+<body>
+    <script>
+        var o = ["Scepter","salary", 50000, {name: 'Faith', age: 23}, {year:1997}, 1];
+        console.log(" Do While")
+        var i = 0;
+        do{
+            console.log(o[i]);
+            i++;
+        }while(i<o.length)
+
+
+        console.log(" For in");
+        for(var i in o){
+            console.log(o[i])
+        }
+        
+        console.log("forEach");
+        o.forEach(element => console.log(element));
+
+        console.log("object only");
+        i = 0;
+        while( i < o.length){
+            if(typeof o[i] == 'object'){
+            console.log(o[i]);
+            }
+            i++
+        }
+    
+    </script>
+    
+</body>
+</html>

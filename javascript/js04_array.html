@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js04 array, Loop</title>
+</head>
+<body>
+        <h1>Array and Loop</h1>
+
+    <script>
+        "use strict"
+    // Array
+    // [value, value, value]
+    // new Array(value, value, value)
+
+
+        var scores = [100, 90, 75, 80];
+                //     0    1   2   3
+
+        console.log(scores);
+        console.log(scores[0]); // 100
+        console.log(scores[3]); // 80
+        console.log(scores[0]); // 100
+        console.log(scores[1], scores[2]); // 90 75
+        console.log(scores[4]); // undefined
+        console.log(scores.length); // 4
+
+        // prototype
+        // array.prototype.pop(); -> Array.pop();
+        // pop() - take the last value nad remove.
+        console.log("==== pop() =====");
+        console.log(scores.pop()); // 80
+        console.log(scores); // 100, 90, 75
+        console.log(scores.pop()); // 75
+        console.log(scores); // 100, 90
+
+        // push()  - add value
+        console.log("==== push() =====");
+        scores.push(50);
+        scores.push(78);
+        console.log(scores);
+        scores.push(100,90);
+        console.log(scores);
+
+        // changing Value
+        console.log("==== changing value() =====");
+        console.log(scores); // 100, 90, 50, 78, 100, 90
+        console.log(scores.length); // 6
+        scores[0] = 60;
+        console.log(scores); // 60, 90, 50, 78, 100, 90
+        scores[2] = 88;
+        console.log(scores); // 60, 90, 88, 78, 100, 90
+        scores[8] = 95;
+        console.log(scores); // 60, 90, 50, 78, 100, 90, , ,95
+
+
+
+        var arr2 = ["Scept", 99, '100', true, {name:"faith", age:23}, 2020]
+
+        console.log(arr2);// "Scept", 99, "100", true, {…}, 2020]
+
+        // Loop
+
+        console.log("==== Loop ====");
+        // for ex.01
+        console.log("==== Ex. 01 ====");
+        for(var i=0; i < arr2.length; i++){
+            console.log(arr2[i]);
+        }
+
+        // for ex.02
+        console.log("==== Ex. 02 ====");
+        var i=0;
+        for( ; i < arr2.length; i++){
+            console.log(arr2[i]);
+        }
+        // for ex.03
+        console.log("==== Ex. 03 ====");
+        var i=0;
+        for( ; i < arr2.length; ){
+            console.log(arr2[i]);
+            i += 1; // i = i + 1;
+        }
+        
+        // while command
+        console.log("==== While ex. 01 ====");
+        var i=0;
+        while(i < arr2.length){
+            console.log(arr2[i]);
+            i += 1;
+        }
+        console.log("==== While ex. 02 ====");
+        var i=0;
+        while(true){
+            if(i >= arr2.length)
+            {
+                break;
+            }
+            console.log(arr2[i]);
+            i+=1;
+        }
+
+        // Question
+        console.log("==== Question ====");
+
+        
+        var ques = ["Scept", 100, '100', true, {name:"ny", age:20}, 2020];
+
+
+
+        // Q1. Print only Number 
+        console.log("==== Number only ====");
+        var i=0;
+        while( i < ques.length){
+            //console.log(typeof ques[i]);
+            if(typeof ques[i] == 'number'){
+
+            console.log(ques[i]); // 100, 2020
+        }
+            i++;
+        
+        }
+        console.log("==== string only ====");
+        var i=0;
+        while( i < ques.length){
+            if(typeof ques[i] == 'string'){
+
+            console.log(ques[i]); // Scept, 100
+        }
+            i++;
+        
+        }
+
+
+
+        console.log("==== do while ====");
+        var i = 0;
+        do{
+            console.log(ques[i]);
+            i++;
+        }while (i < ques.length)
+
+
+        console.log( "=== For in ===");
+        for(var i in ques){
+            console.log(ques[i])
+        }
+
+        console.log("==== foreach ====");
+        ques.forEach(element => console.log(element));
+
+    </script>
+
+
+
+</body>
+</html>
