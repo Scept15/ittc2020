@@ -1,0 +1,27 @@
+img{
+    width: 70px;
+    height: 70px;
+}
+.list{
+   margin-left: 600px;
+}
+.list ul li a:hover{
+   color: aqua;
+}
+.images{
+   overflow: hidden;
+   margin-top: 0;
+}
+.jpg{
+   
+   width: 100%;
+   height: auto;
+   margin-top: 0%;
+}
+.carousel1{
+    position: relative;
+}
+
+.inside1{
+    
+}
