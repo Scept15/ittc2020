@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Js Function</title>
+</head>
+<body>
+
+    <script>
+       " use strict"
+    
+    // function name(parameter, parameter, ...) { command ...}
+    function test(){
+        console.log('hello nanaman!');
+
+        var input = prompt('your name please');
+        console.log("Name is " + input);
+    }
+      // w/out this ' test(); '  will not work   
+
+        //Q: 1 ~ x: total sum=> ??
+        function f(x){
+            var sum = 0;
+            for(var i=0; i<=x; i++){  // 1 + 2 +3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+                sum += i; // sum = sum + 1;
+            }
+            return sum;
+        }
+
+        console.log("1 ~ 10 total sum => ", f(10)); // 55
+        // console.log(sum); Error :  cannot use "sum" because it used to inside the function REMEMBER!
+
+
+        // arguments
+        function accum(p1, p2){
+            var sum = 0;
+
+
+            console.log("======= accum() =====");
+            // console.log(p1, p2, p3);
+            // console.log(arguments[0], arguments[1], arguments[2]);
+            for(var i = 0; i < arguments.length; i++){
+                sum = sum + arguments[i];
+            }
+            return sum;
+        }
+        // (accum(10,20));
+        console.log(accum(10,20,30));
+
+       
+       
+       
+       
+        console.log('======= arguments For in =========')
+        function test2(){
+            var str = '';
+
+            for(var i in arguments){
+                str += ' ' + arguments[i];
+            }
+            console.log(str);
+        }
+
+        test2('aaa','bbb','ccc');
+
+
+    </script>
+
+<!-- 
+    <input type="button" value="click" onclick="test()"> -->
+    
+</body>
+</html>
