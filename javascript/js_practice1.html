@@ -33,7 +33,22 @@
             }
             i++
         }
-    
+        console.log("===================")
+        console.log('%c Me', 'color: red; font-weight: bold;' )
+        console.table(o);
+
+        
+        console.log('%c Table object only', 'color:red; font-weight: bold;')
+        i = 0;
+        while(i<o.length){
+            if(typeof o[i] == 'object'){
+                console.table(o[i]);
+            }
+            i++
+        }
+        
+
+
     </script>
     
 </body>

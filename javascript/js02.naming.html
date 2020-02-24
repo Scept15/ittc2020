@@ -21,26 +21,26 @@
 
     // && : and (T && T => T , F && T => F, T && F => F, F && F => F)
     console.log("==== and(&&) ====");
-    console.log("and: T && T =>", true && true);
-    console.log("and: T && F =>", true && false);
-    console.log("and: F && T =>", false && true);
-    console.log("and: F && F =>", false && false);
+    console.log("and: T && T =>", true && true); // T
+    console.log("and: T && F =>", true && false); // F
+    console.log("and: F && T =>", false && true); // F
+    console.log("and: F && F =>", false && false); // F
 
-     // || : or (T || T => T , F || T => F, T || F => F, F || F => F)
+     // || : or (T || T => T , F || T => F, T || F => T, F || F => F)
      console.log("==== or(||) ====");
-    console.log("and: T || T =>", true || true);
-    console.log("and: T || F =>", true || false);
-    console.log("and: F || T =>", false || true);
-    console.log("and: F || F =>", false || false);
+    console.log("and: T || T =>", true || true); // T
+    console.log("and: T || F =>", true || false); // T
+    console.log("and: F || T =>", false || true); // T
+    console.log("and: F || F =>", false || false); // F
 
     console.log("============");
     var a = 10;
     var b = 20;
     console.log(a);
 
-    a += b; // a = a + b;
+    a += b; // a = a + b; 
 
-     console.log(a);
+     console.log(a); // 30
 
      console.log("============");
      var a = 10;
@@ -71,7 +71,8 @@
 
     // (condition) ? A : B; // teranary operator
     var name = 'faith';
-    console.log(name == 'john' ? "ok" : "No");
+    console.log(name == 'faith' ? "ok" : "No");
+    console.log(name == 'scept' ? 'ok' : 'Not even close')
 
     // Prefix Increment operator, Prifix Decrement Operator 
      // ++x => x = x + 1 // 1 is contstant
