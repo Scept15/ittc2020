@@ -3,14 +3,20 @@ img{
     height: 70px;
 }
 .list{
-   margin-left: 600px;
+   margin-left: 500px;
 }
-.list ul li a:hover{
-   color: aqua;
-}
+
 .images{
    overflow: hidden;
-   margin-top: 0;
+   position: relative;
+   height: 1100px;
+}
+
+ul .nav-item a:hover{
+   color: aqua;
+}
+ul .nav-item a{
+   font-size: 21px;
 }
 .jpg{
    
@@ -22,6 +28,39 @@ img{
     position: relative;
 }
 
-.inside1{
-    
+.carousel1 .inside1{
+    position: absolute;
+    margin-bottom: 700px;
+}
+.inside1 > p{
+   color: black;
+}
+.inside1 > h1{
+   color: black;
+}
+.carousel2{
+   position: relative;
+}
+.inside2{
+   position: absolute;
+   margin-bottom: 750px;
+}
+.inside2 > p{
+   color: black;
+}
+.inside2 > h1{
+   color: black;
+}
+.carousel3{
+   position: relative;
+}
+.inside3{
+   position: absolute;
+   margin-bottom: 755px;
+}
+.inside3 > p{
+   color: black;
+}
+.inside3 > h1{
+   color: black;
 }
