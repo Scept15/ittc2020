@@ -13,9 +13,11 @@ img{
 }
 
 ul .nav-item a:hover{
+   
    color: aqua;
 }
 ul .nav-item a{
+   
    font-size: 21px;
 }
 .jpg{
