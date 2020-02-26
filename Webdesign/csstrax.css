@@ -1,3 +1,7 @@
+body{
+   overflow-x: hidden;
+}
+
 img{
     width: 70px;
     height: 70px;
@@ -5,12 +9,21 @@ img{
 .list{
    margin-left: 500px;
 }
-
+.list ul{
+   padding-bottom: 13px;
+}
 .list ul li{
    padding: 0 13px 0 13px;
 }
-.nabar{
-   padding: .3rem 1rem;
+.navbar-light .navbar-nav .nav-link{
+   color: whitesmoke;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+   color: aqua!important;
+}
+.navbar-light .navbar-nav .nav-link:active{
+   color: aqua;
 }
 
 .images{
@@ -38,25 +51,25 @@ ul .nav-item a{
 
 .carousel1 .inside1{
     position: absolute;
-    margin-bottom: 700px;
+    margin-bottom: 670px;
 }
 .inside1 > p:nth-last-of-type(4){
    color: black;
 }
 .inside1 > #letter:nth-of-type(1){
-   color: whitesmoke;
-   font-size: 40px;
+   
+   font-size: 45px;
    margin-bottom: 0;
 }
 .inside1 > #letter{
-   font-family: 'Amatic SC', ;
-   color: whitesmoke;
-   font-size: 40px;
+   font-family: 'Amatic SC';
+   
+   font-size: 45px;
 }
 .inside1 > h1{
    font-family: 'Lacquer';
-   color: whitesmoke;
-   font-size: 60px;
+   
+   font-size: 50px;
 }
 /* COPY EVERYTHNG IN 1 */
 .carousel2{
@@ -64,29 +77,42 @@ ul .nav-item a{
 }
 .inside2{
    position: absolute;
-   margin-bottom: 750px;
+   margin-bottom: 730px;
 }
-.inside2 > p{
-   font-family: 'Amatic SC', ;
-   color: whitesmoke;
+.inside2 > #letter:nth-of-type(1){
+   
+   font-size: 45px;
+   margin-bottom: 0;
+}
+.inside2 > #letter{
+   font-family: 'Amatic SC';
+   
+   font-size: 45px;
 }
 .inside2 > h1{
-   font-family: 'Lacquer', ;
-   color: whitesmoke;
+   font-family: 'Lacquer';
+   
+   font-size: 50px;
 }
 .carousel3{
    position: relative;
 }
 .inside3{
    position: absolute;
-   margin-bottom: 755px;
+   margin-bottom: 730px;
 }
-.inside3 > p{
-   font-family: 'Amatic SC', ;
-   color: whitesmoke;
+.inside3 > #letter:nth-of-type(1){
+   
+   margin-bottom: 0;
+}
+.inside3 > #letter{
+   font-family: 'Amatic SC';
+   
+   font-size: 45px;
 }
 .inside3 > h1{
-   font-family: 'Lacquer', ;
-   color: whitesmoke;
+   font-family: 'Lacquer';
+   
+   font-size: 50px;
 }
 
