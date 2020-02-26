@@ -6,6 +6,13 @@ img{
    margin-left: 500px;
 }
 
+.list ul li{
+   padding: 0 13px 0 13px;
+}
+.nabar{
+   padding: .3rem 1rem;
+}
+
 .images{
    overflow: hidden;
    position: relative;
@@ -17,8 +24,7 @@ ul .nav-item a:hover{
    color: aqua;
 }
 ul .nav-item a{
-   
-   font-size: 21px;
+   font-size: 15px;
 }
 .jpg{
    
@@ -34,12 +40,25 @@ ul .nav-item a{
     position: absolute;
     margin-bottom: 700px;
 }
-.inside1 > p{
+.inside1 > p:nth-last-of-type(4){
    color: black;
+}
+.inside1 > #letter:nth-of-type(1){
+   color: whitesmoke;
+   font-size: 40px;
+   margin-bottom: 0;
+}
+.inside1 > #letter{
+   font-family: 'Amatic SC', ;
+   color: whitesmoke;
+   font-size: 40px;
 }
 .inside1 > h1{
-   color: black;
+   font-family: 'Lacquer';
+   color: whitesmoke;
+   font-size: 60px;
 }
+/* COPY EVERYTHNG IN 1 */
 .carousel2{
    position: relative;
 }
@@ -48,10 +67,12 @@ ul .nav-item a{
    margin-bottom: 750px;
 }
 .inside2 > p{
-   color: black;
+   font-family: 'Amatic SC', ;
+   color: whitesmoke;
 }
 .inside2 > h1{
-   color: black;
+   font-family: 'Lacquer', ;
+   color: whitesmoke;
 }
 .carousel3{
    position: relative;
@@ -61,8 +82,11 @@ ul .nav-item a{
    margin-bottom: 755px;
 }
 .inside3 > p{
-   color: black;
+   font-family: 'Amatic SC', ;
+   color: whitesmoke;
 }
 .inside3 > h1{
-   color: black;
+   font-family: 'Lacquer', ;
+   color: whitesmoke;
 }
+
