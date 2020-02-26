@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Funtion & Command (try, catch)</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        var age = 12;
+
+        try{
+            console.log(age);
+        }catch(error){
+            console.log(error.message);
+
+        }
+
+        console.log("your name ?", name);
+
+
+
+
+
+
+        
+
+        function plus(a, b){
+            return a + b;
+        }
+         
+        try{
+        console.log(plus(10, 20));
+        }catch(e){
+            console.log(e.message);
+        }
+
+        var plus3 = plus;
+
+        var plus2 = function(a, b){
+            return a + b;
+        }
+
+       
+        console.log(plus(20,20));
+        console.log(plus2(100,50));
+        console.log(plus3(30,40));
+
+
+    
+    
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Function - Declaration, Expression</title>
+</head>
+<body>
+
+    <script>
+    "use strict"
+    // 1. Declaration
+        function plus(a, b) {
+            return a + b;
+        }
+        console.log(plus(10, 20));
+
+    // 2. Expression
+  
+    // console.log(plus2(10, 20));  NOT WORKING IF CALL FIRST
+
+    var plus2 = function (a, b) {
+            return a + b;
+        }
+        console.log(plus2(10, 20));
+        
+
+    </script>
+    
+</body>
+</html>

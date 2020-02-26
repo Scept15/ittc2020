@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Js09 Inner Function</title>
+</head>
+<body>
+
+    <script>
+        "use strict"
+
+        // function plus(a,b){
+        //     return a + b;
+        // }
+
+        // console.log(plus(10, 90));
+
+        function calc(a, b, op){
+            switch(op){
+                case '+':
+                    return plus(a,b);
+                case '-':
+                    return minus(a,b);
+                case '/':
+                    return divide(a,b);
+                case '*':
+                    return multiply(a,b);
+                default:
+                    throw 'wrong data~~!';
+            }
+            function plus(a,b){
+                return a + b;
+            }
+            function minus(a,b){
+                return a - b;
+            }
+            function divide(a,b){
+                return a / b;
+            }
+            function multiply(a,b){
+                return a * b;
+            }
+        }
+        console.log(calc(10, 20, '+')); // +, -, /, *
+        console.log(calc(20, 10, '-'));
+        console.log(calc(10, 20, '/'));
+        console.log(calc(10, 20, '*'));
+
+    </script>
+
+
+</body>
+</html>
