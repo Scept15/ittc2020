@@ -22,10 +22,14 @@ img{
 .navbar-light .navbar-nav .nav-link:hover {
    color: aqua!important;
 }
-.navbar-light .navbar-nav .nav-link:active{
-   color: aqua;
-}
 
+.dropdown-menu table tr:nth-of-type(1) td{
+   padding: 5px;
+   font-size: 20px;
+}
+.dropdown-menu table tr .last{
+display: inline-block;
+}
 .images{
    overflow: hidden;
    position: relative;
@@ -51,7 +55,7 @@ ul .nav-item a{
 
 .carousel1 .inside1{
     position: absolute;
-    margin-bottom: 670px;
+    margin-bottom: 620px;
 }
 .inside1 > p:nth-last-of-type(4){
    color: black;
@@ -77,7 +81,7 @@ ul .nav-item a{
 }
 .inside2{
    position: absolute;
-   margin-bottom: 730px;
+   margin-bottom: 680px;
 }
 .inside2 > #letter:nth-of-type(1){
    
@@ -99,7 +103,7 @@ ul .nav-item a{
 }
 .inside3{
    position: absolute;
-   margin-bottom: 730px;
+   margin-bottom: 680px;
 }
 .inside3 > #letter:nth-of-type(1){
    
