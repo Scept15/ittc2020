@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js10 - Closure</title>
+</head>
+<body>
+
+    <h1>Closure</h1>
+    
+    <script>
+        console.log('===== example 01 =====');
+        // Read Function 1 by 1
+        function addTo(num){
+            return add;
+
+            function add(inner){
+                return num + inner;
+            }
+        }
+        var addThree = addTo(3);
+        var addFour = addTo(4);
+
+        // print
+        console.log(addThree(1)); // 4
+
+
+
+        console.log('===== example 02 =====');
+        // BDO bank : Deposite 0.015, Installment saving 0.034, Fund 0.08, etc 0.008
+        
+        function makeInterest(type){
+            var interRate = 0;
+            if(type == 'Deposit'){
+                interRate = 0.015;
+            }else if(type == 'installment saving'){
+                interRate = 0.034;
+            }else if (type == 'Fund'){
+                interRate = 0.08;
+            }else{
+                interRate = 0.008;
+            }
+            return interest;
+
+            function interest(money){
+                return money + (money * interRate);
+            }
+
+        }
+        var interest1 = makeInterest('Deposit');
+        var interest2 = makeInterest('Installment saving');
+        var interest3 = makeInterest('Fund');
+
+        console.log(interest1(100));
+        console.log(interest2(100));
+        console.log(interest3(100));
+
+        console.log('===== try =====');
+        // BDO bank : Deposit 0.010, time deposit 0.050, Fund 0.08, etc 0.008
+        function profit(type){
+            var rating = 0;
+            if(type == 'Deposit'){
+                rating = 0.10;
+            }else if (type == 'time deposit'){
+                rating = 0.050;
+            }else{
+                rating = 0.001;
+            }
+            return income;
+
+            function income(cash){
+                return cash + (cash * rating);
+            }
+        }
+        
+        var income = profit('Deposit');
+        var income1 = profit('time deposit');
+        var income2 = profit('saving');
+
+        console.log(income(100));
+        console.log(income1(100));
+        console.log(income2(100));
+
+        console.log('===== try =====');
+        // Peso 50.99, jpy 107.92, Aed 3.67, Eur 0.9, Rial 0.38
+        function dollar(type){
+            var changing = 0;
+            if(type == 'Peso'){
+                changing = 50.99;
+            }else if(type == 'Jpy'){
+                changing = 107.92;
+            }else if (type == 'Aed'){
+                changing = 3.67;
+            }else if (type == 'Eur'){
+                changing = 0.9;
+            }else if (type == 'Rial'){
+                changing = 0.38
+            }else{
+                error;
+            }
+            return currency;
+
+            function currency(current){
+                return current * changing;
+            }
+        }
+    
+
+        var Peso = dollar('Peso');
+        var Jpy = dollar('Jpy');
+        var Aed = dollar('Aed');
+        var Eur = dollar('Eur');
+        var Rial = dollar('Rial');
+
+
+        
+        console.log('Peso');
+        console.log(Peso(1));
+        console.log('Jpy');
+        console.log(Jpy(1));
+        console.log('Aed');
+        console.log(Aed(1));
+        console.log('Eur');
+        console.log(Eur(1));
+        console.log('Rial');
+        console.log(Rial(1));
+
+    </script>
+
+
+</body>
+</html>
