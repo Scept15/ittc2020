@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<body>
+    <h1>record</h1>
+
+    <script>
+        var student = [
+            {name: 'jeremy', age: 30, tel:'0999-111-3333', address:'cainta rizal', birthday:'1998-12-02'},
+            {name: 'john', age: 20, tel:'0999-222-3333', address:'metro manila', birthday:'1998-12-02'},
+            {name: 'lilian', age: 27, tel:'0999-333-3333', address:'antipolo', birthday:'1998-12-02'},
+            {name: 'scepter', age: 23, tel:'0999-444-3333', address:'st. lucia', birthday:'1998-12-02'},
+            {name: 'david', age: 35, tel:'0999-555-3333', address:'damang center', birthday:'1998-12-02'},
+        ]
+
+
+
+        console.log('=========forEach2=========');
+        student.forEach(function(student){
+            console.log(student,name,student.age,student.tel,student.address,student.birthday);
+        });
+
+        console.log('=========for=========');
+        for(i=0; i<student.length; i++){
+            console.log(student[i].name,
+                        student[i].age,
+                        student[i].tel,
+                        student[i].address,
+                        student[i].birthday);
+
+        }
+        
+
+    </script>
+</body>
+</html>

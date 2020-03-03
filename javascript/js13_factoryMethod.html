@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factory Method</title>
+</head>
+<body>
+    <h1>Factory Method</h1>
+    <script>
+        function makeStudent(name, kor, eng, math){
+            return {
+                "name": name,
+                "kor": kor,
+                "eng": eng,
+                "math": math
+            };
+        }
+
+        // object array - use makeStudent
+        var student = [
+            makeStudent('jeremy', 100, 100, 100),
+            makeStudent('scepter', 80, 80, 80),
+            makeStudent('lilian', 90, 97, 89),
+        ];
+
+        // stu = is to recieve the return function
+        console.log('=====foreach=====');
+        students.forEach(function(stu){
+            console.log(stu.name, stu.kor, stu.eng, stu.math);
+        });
+    </script>
+    
+</body>
+</html>

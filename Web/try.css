@@ -1,0 +1,12 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Oswald';
+    color: #505962;
+}
+
+/* Nav */
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .8rem;
+}
