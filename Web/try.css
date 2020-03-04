@@ -9,4 +9,44 @@ body{
     text-transform: uppercase;
     font-weight: 700;
     font-size: .8rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.6)!important;
+}
+.navbar-nav li{
+    padding-right: .7rem;
+}
+.navbar .navbar-nav .nav-link{
+    color: white;
+    padding-top: .8rem;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover{
+    color: thistle;
+}
+
+ /* Landing Page */
+
+.home-inner{
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .caption{
+    width:100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+.caption h1{
+font-size: 3.8rem;
+font-weight: 700;
+letter-spacing: .3rem;
+text-shadow: .1rem .1rem .8rem black;
+padding-bottom: 1rem;
+}
+.caption h3{
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .8rem black;
 }
