@@ -6,49 +6,113 @@ img{
     width: 70px;
     height: 70px;
 }
-.list{
-   margin-left: 500px;
-}
+
 .list ul{
+   
    padding-bottom: 13px;
 }
-.list ul li{
-   padding: 0 13px 0 13px;
+
+.list .navbar-item .dropdown{
+   padding: 0 18px 0 18px;
+   color: white;
+   font-size: .9rem;
+}
+.list ul li a:hover{
+   color: aqua;
+
+}
+.navbar{
+   height: 67px;
+   position: absolute;
+   padding-bottom: 0;
 }
 .navbar-light .navbar-nav .nav-link{
    color: whitesmoke;
 }
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .dropdown.active,
+.navbar-light .navbar-nav .dropdown:hover {
    color: aqua!important;
+   
+}
+/* dropdown-menu */
+#dropdown-Home{
+   left: 25%;
+   background-color: #fff;
+}
+#dropdown-Home1{  
+   left: 67%;
+   background-color: #fff;
 }
 
-.dropdown-menu table tr:nth-of-type(1) td{
-   padding: 5px;
-   font-size: 20px;
+
+.megamenu1{ 
+     padding: 0;
 }
-.dropdown-menu table tr .last{
-display: inline-block;
+
+.megamenu1{ 
+   min-width: 1000px;
+   min-height: 200px;
 }
+
+.megamenu1 a{   
+   margin: 1rem 0 0.5rem 1rem;
+   font-size: 17px;
+  
+} 
+
+.megamenu2 .page{
+   margin-right: 50px;
+}
+
+.megamenu2{   
+   min-width: 1000px;
+   min-height: 330px;
+}
+
+.megamenu2 h5{
+   margin: 1.5rem 0 0.5rem 1rem;
+   font-size: 19px;
+   font-family: 'Ubuntu';
+}
+
+.megamenu2 a{
+   margin: 1.5rem 0 0.5rem 1rem;
+   padding-left: 0;
+   font-size: 16px;  
+  
+}
+
+
+
+.megamenu3{
+   min-width: 27  0px;
+   min-height: 180px;
+}
+
+.megamenu3 a{
+   margin-top: 13px;
+   line-height: 30px;    
+  
+}
+
+
+/* Background Images */
 .images{
-   overflow: hidden;
-   position: relative;
-   height: 1100px;
+   width: 100%;
+   position: absolute;
+   /* coloring black shadow */
+   /* place it correctly */
+   background-color: rgba(0, 0, 0, 0.6 black);
 }
 
-ul .nav-item a:hover{
-   
-   color: aqua;
-}
-ul .nav-item a{
-   font-size: 15px;
-}
+
+/* Carousel */
 .jpg{
-   
    width: 100%;
    height: auto;
    margin-top: 0%;
 }
+
 .carousel1{
     position: relative;
 }
@@ -57,63 +121,77 @@ ul .nav-item a{
     position: absolute;
     margin-bottom: 620px;
 }
+
 .inside1 > p:nth-last-of-type(4){
    color: black;
 }
+
 .inside1 > #letter:nth-of-type(1){
    
    font-size: 45px;
    margin-bottom: 0;
 }
+
 .inside1 > #letter{
    font-family: 'Amatic SC';
    
    font-size: 45px;
 }
+
 .inside1 > h1{
    font-family: 'Lacquer';
    
    font-size: 50px;
 }
+
 /* COPY EVERYTHNG IN 1 */
 .carousel2{
    position: relative;
 }
+
 .inside2{
    position: absolute;
    margin-bottom: 680px;
 }
+
 .inside2 > #letter:nth-of-type(1){
    
    font-size: 45px;
    margin-bottom: 0;
 }
+
 .inside2 > #letter{
    font-family: 'Amatic SC';
    
    font-size: 45px;
 }
+
 .inside2 > h1{
    font-family: 'Lacquer';
    
    font-size: 50px;
 }
+
 .carousel3{
    position: relative;
 }
+
 .inside3{
    position: absolute;
    margin-bottom: 680px;
 }
+
 .inside3 > #letter:nth-of-type(1){
    
    margin-bottom: 0;
 }
+
 .inside3 > #letter{
    font-family: 'Amatic SC';
    
    font-size: 45px;
 }
+
 .inside3 > h1{
    font-family: 'Lacquer';
    
