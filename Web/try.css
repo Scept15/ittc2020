@@ -3,12 +3,18 @@ body{
     font-family: 'Oswald';
     color: #505962;
 }
+.offset:before{
+    display: block;
+    content: "";
+    height: 6rem;
+    margin-top: -4rem;
+}
 
 /* Nav */
 .navbar{
     text-transform: uppercase;
     font-weight: 700;
-    font-size: .8rem;
+    font-size: 1rem;
     letter-spacing: .1rem;
     background: rgba(0, 0, 0, 0.6)!important;
 }
@@ -21,7 +27,7 @@ body{
 }
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link:hover{
-    color: thistle;
+    color: aqua;
 }
 
  /* Landing Page */
@@ -34,7 +40,7 @@ body{
     width:100%;
     max-width: 100%;
     position: absolute;
-    top: 38%;
+    top: 35%;
     z-index: 1;
     color: white;
     text-transform: uppercase;
@@ -46,7 +52,46 @@ letter-spacing: .3rem;
 text-shadow: .1rem .1rem .8rem black;
 padding-bottom: 1rem;
 }
-.caption h3{
+.caption h4{
     font-size: 2rem;
     text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 20px;
+}
+.btn-lg{
+    font-size: 25px;
+    padding: .2rem .9rem;
+    border-width: medium;
+    border-radius: 0;
+    letter-spacing: 2px;
+}
+/* Event */
+
+.narrow{
+    width: 75%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+    
+}
+.narrow h1{
+    font-size: 30px;
+}
+.btn-secondary{
+    border-color: rgb(199, 148, 195);
+    border-width: medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: .6rem 1.2rem;
+    color: black;
+    background-color: mistyrose; 
+    margin-bottom: 30px;  
+}
+.btn-secondary:hover{
+    
+    border-color: rgb(199, 148, 195);
+    background-color: rgb(188, 126, 190);   
+}
+/* Info */
+.jumbotron{
+    margin-bottom: 0;
+
 }
