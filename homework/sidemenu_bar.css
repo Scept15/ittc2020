@@ -12,8 +12,7 @@
     background: black;
     transition: all .5s ease;
 }
-.sidebar header{
-    
+.sidebar header{    
     font-size: 25px;
     color: whitesmoke;
     text-align: center;
@@ -30,7 +29,7 @@
     color: whitesmoke;
     padding-left: 40px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(255, 255, 255, 0);
+    border-top: .5px solid rgba(255, 255, 255, 0);
     border-bottom: 1px solid rgb(52, 166, 170);
     transition: .7s;
 }
