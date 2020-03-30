@@ -35,7 +35,7 @@ background-color: rgb(206, 197, 197);
 
 .output {
     grid-column: 1 / -1;
-    background-color: black;
+    background-color:black;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
