@@ -45,12 +45,12 @@ background-color: rgb(206, 197, 197);
     word-break: break-all;
 }
 
-.output .previous-operand{
+.output > .previous-operand{
     color: whitesmoke;
-    font-size: 25px;
+    font-size: 22px;
 }
 
-.output .current-operand{
+.output > .current-operand{
     color: rgb(41, 217, 230);
     font-size: 35px;
 }
