@@ -59,10 +59,12 @@ padding-bottom: 1rem;
 }
 .btn-lg{
     font-size: 25px;
+    font-weight: 600;
     padding: .2rem .9rem;
     border-width: medium;
     border-radius: 0;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
+    text-shadow:  1px 1px 3px black;
 }
 /* Event */
 
