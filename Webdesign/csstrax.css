@@ -109,7 +109,7 @@ img{
 /* Carousel */
 .jpg{
    width: 100%;
-   height: auto;
+   height: 990px;
    margin-top: 0%;
 }
 
@@ -119,7 +119,7 @@ img{
 
 .carousel1 .inside1{
     position: absolute;
-    margin-bottom: 620px;
+    margin-bottom: 500px;
 }
 
 .inside1 > p:nth-last-of-type(4){
@@ -151,7 +151,7 @@ img{
 
 .inside2{
    position: absolute;
-   margin-bottom: 680px;
+   margin-bottom: 500px;
 }
 
 .inside2 > #letter:nth-of-type(1){
@@ -178,7 +178,7 @@ img{
 
 .inside3{
    position: absolute;
-   margin-bottom: 680px;
+   margin-bottom: 500px;
 }
 
 .inside3 > #letter:nth-of-type(1){
@@ -198,3 +198,15 @@ img{
    font-size: 50px;
 }
 
+
+
+.carousel-control-prev .carousel-control-prev-icon,
+.carousel-control-next .carousel-control-next-icon{
+   margin: 0 1rem;
+   opacity: 0;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon{
+   opacity: 1;
+}
