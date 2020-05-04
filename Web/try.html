@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="try.css">
+    <link rel="stylesheet" href="carousel.css">
    
 </head>
 <body data-spy="scroll" data-target="#navbarResponsive">
@@ -73,13 +74,45 @@
 
          <!-- start Event -->
         <div id="event" class="offset">
+            <div class="slide hi-slide justify-content-center">
+                <div class="hi-prev"></div>
+                <div class="hi-next"></div>
+                <ul>
+                    <li>
+                      <img src="img/cotton1.jpg" alt="">
+                    </li>
+                    <li>
+                       <img src="img/cotton2.jpeg" alt="">
+                    </li>
+                    <li>
+                       <img src="img/cotton3.jpg" alt="">
+                    </li>
+                    <li>
+                       <img src="img/cotton4.jpeg" alt="">
+                    </li>
+                    <li>
+                       <img src="img/cotton5.jpeg" alt="">
+                    </li>
+                    <li>
+                       <img src="img/cotton6.jpeg" alt="">
+                    </li>
+                    <li>
+                       <img src="img/cotton4.jpeg" alt="">
+                    </li>
+                    <li>
+                       <img src="img/cotton2.jpeg" alt="">
+                    </li>
+                </ul>
+            
+            </div>
+        
             <div class="col-12 narrow text-center">
                 <h1>Cotton Candy</h1>
                 <p class="lead">Cotton Candy is a spun suger confection
                      that resembles cotton </p>
                 <a class="btn btn-secondary btn-md" href="#" target="_blank">50% SALE</a>     
+             </div>
 
-            </div>
         </div>
         <!-- End Event Page  -->
 
@@ -241,7 +274,7 @@
                         <a class="navbar-brand" href="#"><img src="brand.png" alt="cotton" width="60px" height="60px"></a>
                         <p>I made this site to practice and enhance my skill.
                             I hope that I could do better than this after more months of practice and 
-                            study, hoping to be a part of N2N Company.
+                            study, hoping to be a part of NTON Company.
                         </p>
                         <strong>Thank You</strong>
                         <p>"Scepter C. Olegario"
@@ -267,6 +300,13 @@
 
 
         <script src="https://kit.fontawesome.com/44b2ee3385.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="jquery.hislide.js"></script>
+        <script>
+            $('.slide').hiSlide();
+        </script>
+        
+
 
 </body>
 </html> 

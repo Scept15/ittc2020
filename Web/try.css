@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
     font-family: 'Oswald';
     color: #505962;
@@ -6,7 +8,7 @@ body{
 .offset:before{
     display: block;
     content: "";
-    height: 6rem;
+    height: 5.6rem;
     margin-top: -5.6rem;
 }
 
@@ -67,10 +69,10 @@ padding-bottom: 1rem;
     text-shadow:  1px 1px 3px black;
 }
 /* Event */
-
+/* carousel.css */
 .narrow{
     width: 75%;
-    margin: 1.5rem auto;
+    margin: 2rem auto;
     padding-top: 2rem;
     
 }
@@ -82,16 +84,21 @@ padding-bottom: 1rem;
     border-width: medium;
     border-radius: 0;
     text-transform: uppercase;
-    font-size: .6rem 1.2rem;
+    font-size: 1rem;
     color: black;
     background-color: mistyrose; 
-    margin-bottom: 30px;  
+    margin-bottom: 30px;
+    padding: .6rem 1rem;
 }
 .btn-secondary:hover{
-    
-    border-color: rgb(199, 148, 195);
-    background-color: rgb(188, 126, 190);   
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: rgb(47, 0, 255);
+    border-color:  rgb(47, 0, 255);
+    background-color:whitesmoke;   
 }
+
+
 /* Info */
 .jumbotron{
     margin-bottom: 0;
@@ -169,6 +176,8 @@ blockquote .fa-quote-left{
     border-top: 2px solid rgb(215, 92, 240);
 }
 
+
+
 /*  Contact */
 
 #contact img{
@@ -203,6 +212,7 @@ footer .fab{
 
 /* Media */
 @media (max-width: 767px){
+    /* home page */
     .caption h1{
         font-size: 2.3rem;        
         letter-spacing: .15rem;
@@ -214,12 +224,34 @@ footer .fab{
     }
     .btn-lg{
             font-size: 16px;
-            padding: .5rem 1rem;
-            
+            padding: .5rem 1rem;       
+    }
+
+
+    /* Event page */
+    .slide{
+        margin-top: 20px!important;
+        margin-left: -85px!important;
+        margin-bottom: 50px;
+    }
+    
+
+
+    .narrow{
+        margin-top: 50px;
+        margin-bottom: 10px;
     }
     .narrow h1{
         font-size: 20px;
     }
+
+    /* Resources */
+    .fixed{
+        background-size: auto!important;
+    }
+
+
+    /* Client page */
     .clients img{
         width: 50%;
         height: 220px;

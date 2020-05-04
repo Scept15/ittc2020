@@ -17,16 +17,16 @@ body{
 .hi-slide .hi-next,
 .hi-slide .hi-prev{
     position: absolute;
-    top: 50%;
+    top: 60%;
     width: 40px;
     height: 40px;
     margin-top: -20px;
     border-radius: 50px;
-    line-height: 40px;
+    line-height: 35px;
     text-align: center;
     cursor: pointer;
-    background-color: whitesmoke;
-    color: black;
+    background-color: deeppink;
+    color:#0d00b7;
     transition: all 1s;
     font-size: 20px;
     font-weight: bold;
@@ -39,7 +39,8 @@ body{
 .hi-slide .hi-next:hover,
 .hi-slide .hi-prev:hover{
     opacity: 1;
-    background-color: white;
+    background-color: #0d00b7;
+    color: deeppink;
 }
 
 
