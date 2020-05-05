@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: #383838;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.card{
+    position: relative;
+    background: #fff;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+}
+.card .content{
+    widows: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.card .sliderText{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
