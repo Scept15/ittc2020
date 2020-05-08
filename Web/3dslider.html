@@ -2,25 +2,130 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <title>3d Slider-text</title>
+    <link rel="stylesheet" href="swiper.min.css">
     <link rel="stylesheet" href="3dslider.css">
 </head>
 <body>
-    <div class="card">
-        <div class="sliderText">
-            <h3>Scepter</h3>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" >
+          <div class="imgBx">
+            <img src="img/cotton1.jpg" alt="">
+            </div>
+              <div class="details">
+                <h3>Sarap<br><span>Ayeah!</span></h3>
+              </div>
+          </div>
+          <div class="swiper-slide" >
+            <div class="imgBx">
+              <img src="img/cotton2.jpeg" alt="">
+              </div>
+                <div class="details">
+                  <h3>Sarap<br><span>Ayeah!</span></h3>
+                </div>
+            </div>
+            <div class="swiper-slide" >
+              <div class="imgBx">
+                <img src="img/cotton3.jpg" alt="">
+                </div>
+                  <div class="details">
+                    <h3>Sarap<br><span>Ayeah!</span></h3>
+                  </div>
+              </div>
+              <div class="swiper-slide" >
+                <div class="imgBx">
+                  <img src="img/cotton4.jpeg" alt="">
+                  </div>
+                    <div class="details">
+                      <h3>Sarap<br><span>Ayeah!</span></h3>
+                    </div>
+                </div>
+                <div class="swiper-slide" >
+                  <div class="imgBx">
+                    <img src="img/cotton5.jpeg" alt="">
+                    </div>
+                      <div class="details">
+                        <h3>Sarap<br><span>Ayeah!</span></h3>
+                      </div>
+                  </div>
+                  <div class="swiper-slide" >
+                    <div class="imgBx">
+                      <img src="img/cotton6.jpeg" alt="">
+                      </div>
+                        <div class="details">
+                          <h3>Sarap<br><span>Ayeah!</span></h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" >
+                      <div class="imgBx">
+                        <img src="love.jpeg" alt="">
+                        </div>
+                          <div class="details">
+                            <h3>Sarap<br><span>Ayeah!</span></h3>
+                          </div>
+                      </div>
+                      <div class="swiper-slide" >
+                        <div class="imgBx">
+                          <img src="sale.jpg" alt="">
+                          </div>
+                            <div class="details">
+                              <h3>Sarap<br><span>Ayeah!</span></h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" >
+                          <div class="imgBx">
+                            <img src="sweet.jpg" alt="">
+                            </div>
+                              <div class="details">
+                                <h3>Sarap<br><span>Ayeah!</span></h3>
+                              </div>
+                          </div>
         </div>
-        <div class="content">
-            <p>A sceptre (British English)
-                 or scepter (American English)
-                  is a staff or wand held in the hand 
-                  by a ruling monarch as an item of royal 
-                  or imperial insignia. Figuratively, it
-                   means royal or imperial authority or 
-                   sovereignty.</p>
-                   <a href="https://en.wikipedia.org/wiki/Sceptre">Read More</a>
-        </div>
-     </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : true,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+      </script>
 </body>
 </html>
