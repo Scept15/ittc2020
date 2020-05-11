@@ -8,7 +8,8 @@ body{
 .offset:before{
     display: block;
     content: "";
-    height: 5.6rem;
+    height: 5.6rem; 
+    /* height: 3.7rem; */
     margin-top: -5.6rem;
 }
 
@@ -29,7 +30,7 @@ body{
 }
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link:hover{
-    color: aqua;
+    color: aqua!important;
 }
 
  /* Landing Page */
@@ -77,30 +78,31 @@ padding-bottom: 1rem;
     
 }
 .narrow h1{
-    font-size: 30px;
+    font-size: 30px!important;
 }
 .btn-secondary{
-    border-color: rgb(199, 148, 195);
-    border-width: medium;
-    border-radius: 0;
-    text-transform: uppercase;
-    font-size: 1rem;
-    color: black;
-    background-color: mistyrose; 
-    margin-bottom: 30px;
-    padding: .6rem 1rem;
+    border-color: rgb(199, 148, 195)!important;
+    border-width: medium!important;
+    border-radius: 0!important;
+    text-transform: uppercase!important;
+    font-size: 1rem!important;
+    color: black!important;
+    background-color: mistyrose!important; 
+    margin-bottom: 30px!important;
+    padding: .6rem 1rem!important;
 }
 .btn-secondary:hover{
-    font-weight: 800;
-    font-size: 1.2rem;
-    color: rgb(47, 0, 255);
-    border-color:  rgb(47, 0, 255);
-    background-color:whitesmoke;   
+    font-weight: 800!important;
+    font-size: 1.2rem!important;
+    color: rgb(47, 0, 255)!important;
+    border-color:  rgb(47, 0, 255)!important;
+    background-color:whitesmoke!important;   
 }
 
 
 /* Info */
 .jumbotron{
+    
     margin-bottom: 0;
     border-radius: 0;
 }    
@@ -153,6 +155,7 @@ padding-bottom: 1rem;
     width: 100%;
     height: 900px;
     margin: 0;
+    padding: 0;
     position: absolute;
 }
 .fixed-background h3{
@@ -162,9 +165,9 @@ padding-bottom: 1rem;
     margin-top: 1.5rem;
 }
 
-/* clients */
+/* owners */
 
-.clients img{
+.owners img{
     width: 100%;
     height: 220px;
     border-radius: 50%;
@@ -173,9 +176,21 @@ blockquote .fa-quote-left{
     color: rgb(215, 92, 240);
     margin: 16px;
 }
-.clients-hr{
+.owners-hr{
     border-top: 2px solid rgb(215, 92, 240);
 }
+
+
+
+
+/* see more */
+
+.see{
+   margin-top: 60px;
+    height: 200px;
+}
+
+
 
 
 
@@ -230,18 +245,8 @@ footer .fab{
 
 
     /* Event page */
-    .slide{
-        /* margin-top: 20px!important;
-        margin-left: -85px!important;
-        margin-bottom: 50px; */
-
-        margin: auto!important;
-    }
-    
-
-
     .narrow{
-        margin-top: 50px;
+        margin-top: 20px;
         margin-bottom: 10px;
     }
     .narrow h1{
@@ -256,7 +261,7 @@ footer .fab{
 
 
     /* Client page */
-    .clients img{
+    .owners img{
         width: 50%;
         height: 220px;
         border-radius: 50%;
@@ -271,6 +276,12 @@ footer .fab{
         z-index: -1;
         width: 100%;
         height: 900px;
+    }
+
+
+    /* contacts */
+    #contact{
+        height: 100%;
     }
 
 }
