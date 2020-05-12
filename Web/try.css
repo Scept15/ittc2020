@@ -8,9 +8,10 @@ body{
 .offset:before{
     display: block;
     content: "";
-    height: 5.6rem; 
+    height: 3.7rem; 
     /* height: 3.7rem; */
-    margin-top: -5.6rem;
+    margin-top: -5.7rem;
+    margin-right: 0!important;
 }
 
 /* Nav */
@@ -71,10 +72,14 @@ padding-bottom: 1rem;
 }
 /* Event */
 /* carousel.css */
+.swiper-container{
+    margin-top: 50px;
+}
 .narrow{
     width: 75%;
     margin: 2rem auto;
-    padding-top: 2rem;
+    
+    margin-bottom: 50px!important;
     
 }
 .narrow h1{
@@ -101,11 +106,15 @@ padding-bottom: 1rem;
 
 
 /* Info */
-.jumbotron{
-    
-    margin-bottom: 0;
-    border-radius: 0;
-}    
+#info .jumbotron{
+    padding-top: -20px;
+}
+
+#info .jumbotron .col-12{
+    padding-bottom: 100px;
+
+}
+
 
 .heading{
     font-size: 25px;
@@ -120,9 +129,7 @@ padding-bottom: 1rem;
     margin: 0 auto 32px;
 }
 
-.col-12{
-    margin-bottom: 60px;
-} 
+
 
 .feature a{
     color: rgb(20, 36, 255);
@@ -137,14 +144,13 @@ padding-bottom: 1rem;
 
 /* Resources */
 
-
 .fixed{
     background-image: url(back.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
     z-index: -1;
-    width: 100%;
+    width: 100%!important;
     height: 900px;
 }
 
@@ -152,15 +158,25 @@ padding-bottom: 1rem;
     background-color: rgba(0, 0, 0, 0.75);
     color: mistyrose;
     padding: 7rem 2rem;
-    width: 100%;
-    height: 900px;
+    width: 1885px;
+    height: 870px;
     margin: 0;
     padding: 0;
     position: absolute;
 }
-.fixed-background h3{
-    margin-bottom: 2rem;
+
+.dark > .col-12{
+    margin-top: 50px;
+    margin-bottom: 0;
 }
+
+
+.fixed-background h3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+
 .fixed-background p{
     margin-top: 1.5rem;
 }
