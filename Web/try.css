@@ -154,11 +154,12 @@ padding-bottom: 1rem;
     height: 900px;
 }
 
+
 .dark{
     background-color: rgba(0, 0, 0, 0.75);
     color: mistyrose;
     padding: 7rem 2rem;
-    width: 1885px;
+    width: 100%!important;
     height: 870px;
     margin: 0;
     padding: 0;
@@ -270,6 +271,9 @@ footer .fab{
     }
 
     /* Resources */
+    .dark{
+        width: 100%!important;
+    }
     .fixed{
         background-position: bottom;
         background-size: auto!important;
