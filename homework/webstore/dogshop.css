@@ -1,2 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+
+}
+
+:root {
+    --Sniglet-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bygradient: linear-gradient(to bottom,
+            #43C6AC, #191654);
+    --light-grey: rgba(255, 255, 255, 0);
+
+
+
+}
+
+.header a {
+    font-family: var(--Sniglet-font);
+    font-size: .9em;
+    color: whitesmoke;
+}
+
+header {
+    background: #43C6AC;
+    background: var(--bygradient)
+}
