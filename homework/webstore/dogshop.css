@@ -141,3 +141,111 @@ header .container .col-md-7 button:hover {
     transition: 1.25s;
     transition-delay: 1s;
 }
+
+/* Feature */
+
+.section-1{
+    /* height: 1200px; */
+    padding: 12vmin 0;
+
+}
+
+.section-1 .row .col-md-6 .play img{
+    opacity: .8;
+    width: 100%;
+    border-radius: .5em;
+    /* height: 850px; */
+}
+
+.section-1 .row .col-md-6:last-child{
+    position: relative;
+
+}
+
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 7vmin;
+    left: -10vmin;
+    background: whitesmoke;
+    border-radius: 3px;
+    text-align:left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1{
+    font-weight: bold;
+    padding: .4em 0;
+    font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p{
+    font-size: .9em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Price */
+
+.cover{
+    width: 100%;
+    height: 55vmin;
+    background: url(dog/background.jpg);
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+}
+
+.cover .content{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+
+.cover .content > h1{
+    font-family: var(--Patua);
+    font-size: 6vmin;
+    color: whitesmoke;
+
+}
+
+.cover .content > p {
+    font-family: var(--Rubik);
+    font-size: 2vmin;
+    color: whitesmoke;
+
+}
+
+.numbers .rect{
+    position: relative;
+    z-index: 1;
+    background: whitesmoke;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0px rgba(0, 102, 255, 0.349);
+}
+
+/* number Cards */
+
+.numbers{
+    margin-top: -12vmin;
+}
+
+.numbers .rect h1{
+    font-size: 5rem;
+    color: teal;
+}
+
+.numbers .rect p{
+font-family: var(--Patua);
+}
+
+
+
+
+
