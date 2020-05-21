@@ -14,9 +14,13 @@ section {
 }
 
 :root {
-    --Sniglet-font: "Sniglet", cursive;
+    /* small bold */
+    --Sniglet-font: "Sniglet", cursive; 
+    /* thin */
     --Rubik: "Rubik", cursive;
+    /* normal size bold */
     --Patua: "Patua One", cursive;
+    /* cursive */
     --Lobster: "Lobster", cursive;
     --light-black: #2e2c2caf;
     --bygradient: linear-gradient(to bottom,
@@ -230,6 +234,7 @@ header .container .col-md-7 button:hover {
     box-shadow: 1px 2px 50px 0px rgba(0, 102, 255, 0.349);
 }
 
+
 /* number Cards */
 
 .numbers{
@@ -245,7 +250,75 @@ header .container .col-md-7 button:hover {
 font-family: var(--Patua);
 }
 
+.purchase > h1{
+    padding-top: 15vmin;
+    padding-bottom: .1em;
+    font-family: var(--Lobster);
+}
+
+.purchase > p{
+    color: var(--light-black);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+}
 
 
+.purchase .cards .card{
+    width: 22rem;
+    margin: 3vmin;
+}
+
+.cards div{
+    padding: 0;
+    margin: 0;
+}
+
+.cards .title{
+    background: rgba(208, 241, 241, 0.199);
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+    font-family: var(--Patua);
+}
+
+.card .card-text{
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+    font-family: var(--Rubik);
+}
+
+.card-body .pricing{
+    background: rgba(208, 241, 241, 0.199);
+    border-top-left-radius: 170px;
+    border-top-right-radius: 170px;
+
+}
+
+.card-body .pricing h1{
+    font-size: 8vmin;
+    padding: 1em 0.5em;
+}
 
 
+/* Download App */
+
+.section-3{
+    height: 70vmin;
+    margin-top: 15vmin;
+    background: var(--bygradient);
+}
+
+.section-3 .desktop a{
+    text-decoration: none;
+    color: black;
+}
+
+.section-3 .desktop a:hover{
+    color: whitesmoke;
+    font-family: var(--Rubik);
+}
+
+.section-3 .col-md-12 > h1{
+    padding: 2em 0 0.5em 0;
+    color: whitesmoke;
+    font-size: 6vmin;
+}
