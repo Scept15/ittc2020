@@ -369,12 +369,57 @@ font-family: var(--Patua);
 
 .section-4 .card .card-body > a{
     font-size: 1.5em;
+    color: #43C6AC!important;
 }
 
 .section-4 .carousel-item{
     padding-left: 3rem;
 }
 
+
 .border-radius{
     border-radius: 100px;
+    width: 60%;
+
+}
+
+/* about  */
+
+footer{
+    background: rgba(0, 0, 0, 0.815);
+    /* To remove horizontal scroll bar */
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+
+}
+
+footer p > span{
+    color: #43C6AC;
+}
+
+footer input{
+    border: none!important;
+
+}
+
+footer input{
+    color: whitesmoke;
+}
+
+footer input::placeholder{
+    color: thistle!important;
+}
+
+footer .input-group .input-group-text{
+    background: var(--withgradient);
+    border: none;
+}
+
+
+footer .column i{
+    color: turquoise;
+}
+
+footer .column a{
+    padding: 0 0.4em;
 }
