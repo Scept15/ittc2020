@@ -54,7 +54,24 @@
 @media only screen and (max-width: 425px){
     footer .row .col-md-2{
         margin-top: 8vmin;
-
-        
     }
+
+    .section-4 .carousel-inner{
+        margin-left: -14vmin;
+    }
+
+}
+
+/* align card */
+
+@media only screen and (max-width: 320px){
+    .section-4 .card{
+        width: 18rem;
+    }
+
+    .section-4 .carousel-inner{
+        margin-left: -14vmin;
+    }
+
+
 }
