@@ -42,10 +42,13 @@
         align-content: center;
     }
     
-    
+    .section-4 .card{
+        margin-left: -3rem;
+    }
 
     .section-4 .carousel-inner{
        
+        margin-left: -9vmin;
         width: 25rem;
     }
 
@@ -56,8 +59,12 @@
         margin-top: 8vmin;
     }
 
+    .section-4 .card{
+        margin-left: .8rem;
+    }
+
     .section-4 .carousel-inner{
-        margin-left: -14vmin;
+        margin-left: -9vmin;
     }
 
 }
