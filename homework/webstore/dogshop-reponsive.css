@@ -69,6 +69,23 @@
 
 }
 
+
+@media only screen and (max-width: 400px){
+    .section-4 .card{
+        width: 17rem;
+    }
+
+    .section-4 .card{
+        margin-left: .8rem;
+    }
+
+    .section-4 .carousel-inner{
+        margin-left: -10vmin;
+    }
+    
+}
+
+
 /* align card */
 
 @media only screen and (max-width: 320px){
