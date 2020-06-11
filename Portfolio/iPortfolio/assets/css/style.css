@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #149ddd;
+  background: olive;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #2eafec;
+  background: olivedrab;
   transition: background 0.2s ease-in-out;
 }
 
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: olivedrab;
   color: #fff;
   text-decoration: none;
   
@@ -149,6 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
+  letter-spacing: 5px;
 }
 
 .nav-menu a {
@@ -159,6 +160,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
+  font-family: 'Indie Flower', cursive;;
 }
 
 .nav-menu a i {
@@ -195,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #149ddd;
+  color: olivedrab;
 }
 
 .mobile-nav-active {
@@ -248,15 +250,16 @@ h1, h2, h3, h4, h5, h6 {
 #hero p {
   color: #fff;
   margin-bottom: 50px;
-  font-size: 26px;
+  font-size: 28px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
   color: #fff;
   padding-bottom: 4px;
-  letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  letter-spacing: 1.5px;
+  border-bottom: 3px solid olivedrab;
+  font-family: 'indie Flower, cursive'
 }
 
 @media (min-width: 1024px) {
@@ -299,7 +302,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: olive;
 }
 
 .section-title h2::after {
@@ -308,7 +311,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: teal;
   bottom: 0;
   left: 0;
 }
@@ -323,7 +326,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: olivedrab;
 }
 
 .about .content ul {
@@ -338,7 +341,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #149ddd;
+  color: yellowgreen;
 }
 
 .about .content p:last-child {
@@ -360,7 +363,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: pink;
   float: left;
 }
 
@@ -378,14 +381,14 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #122f57;
+  color: olivedrab;
 }
 
 .facts .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #122f57;
+  color: olivedrab;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
@@ -396,7 +399,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
@@ -427,7 +430,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #149ddd;
+  background-color: pink;
 }
 
 /*--------------------------------------------------------------
@@ -444,7 +447,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid salmon;
   position: relative;
 }
 
@@ -488,7 +491,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 2px solid olivedrab;
 }
 
 /*--------------------------------------------------------------
@@ -522,7 +525,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: olivedrab;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -565,17 +568,17 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: olivedrab;
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: yellowgreen;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
-  border-left: 1px solid #37b3ed;
+  border-left: 1px solid olive;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -605,10 +608,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: salmon;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: 1px solid olive;
 }
 
 .services .icon i {
@@ -621,7 +624,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #149ddd;
+  color: olive;
 }
 
 .services .title {
@@ -754,7 +757,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: salmon;
   float: left;
   width: 44px;
   height: 44px;
@@ -805,21 +808,22 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: olivedrab;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #149ddd;
+  background: olivedrab;
   color: #fff;
 }
 
-.contact .php-email-form {
-  width: 100%;
+#contact .php-email-form {
+  width: 100%!important;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
+
 
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
@@ -886,7 +890,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #149ddd;
+  background: olivedrab;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -895,7 +899,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #37b3ed;
+  background: salmon;
 }
 
 @-webkit-keyframes animate-loading {
