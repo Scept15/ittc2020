@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Maven Pro', sans-serif;
   color: #272829;
 }
 
@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: olivedrab;
+  color: whitesmoke;
 }
 
 .mobile-nav-active {
